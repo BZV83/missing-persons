@@ -188,3 +188,9 @@ def indexPageView(request):
     } 
 
     return render(request,'pages/index.html', context)
+
+def aboutPageView(request):
+    return render(request, 'pages/about.html')
+
+def faqPageView(request):
+    return render(request, 'pages/faq.html')
