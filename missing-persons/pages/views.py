@@ -182,9 +182,7 @@ def indexPageView(request):
     ]
 
     context = {
-        "school_name" : "BYU",
-        "degrees" : ["IS", "Acct", "Mktg"],
-        "data" : lstData
+        "data" : lstData,
     } 
 
     return render(request,'pages/index.html', context)
