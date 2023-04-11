@@ -3,6 +3,9 @@ from django.http import HttpResponse
 
 # Create your views here.
 def indexPageView(request):
+    return render(request,'pages/index.html')
+
+def aboutPageView(request):
     lstData = [
         {
             "date_missing": "10/30/2009",
@@ -185,10 +188,7 @@ def indexPageView(request):
         "data" : lstData,
     } 
 
-    return render(request,'pages/index.html', context)
-
-def aboutPageView(request):
-    return render(request, 'pages/about.html')
+    return render(request, 'pages/about.html', context)
 
 def faqPageView(request):
     return render(request, 'pages/faq.html')
