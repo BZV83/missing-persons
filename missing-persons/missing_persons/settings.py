@@ -1,3 +1,4 @@
+#Bryson Lindsey, Hayden Enloe, McKay Boody, Landon Graham, and Brendan Vick
 """
 Django settings for missing_persons project.
 
