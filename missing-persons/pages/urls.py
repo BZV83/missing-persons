@@ -1,6 +1,5 @@
 from django.urls import path
 from .views import indexPageView
-from .views import aboutPageView
 from .views import faqPageView
 from .views import showPeoplePageView
 from .views import displayPersonPageView
@@ -10,6 +9,4 @@ urlpatterns = [
     path("showPeople/", showPeoplePageView, name ="showPeople"),
     path("", indexPageView, name = "index"),
     path("faq/", faqPageView, name = "faq"),
-    path("about/", aboutPageView, name = "about"),
-   
 ]

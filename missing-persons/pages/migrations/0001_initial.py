@@ -23,7 +23,7 @@ class Migration(migrations.Migration):
                 ('city', models.CharField(max_length=20)),
                 ('state', models.CharField(max_length=2)),
                 ('gender', models.CharField(max_length=1)),
-                ('race', models.CharField(max_length=1)),
+                ('race', models.CharField(max_length=20)),
             ],
         ),
     ]
