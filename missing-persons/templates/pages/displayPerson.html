@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block main_content %}
+        <p>Details on individual: </p>
+        <form>
+            <label>Date Missing</label>
+            <input type="text" value="{{data.date_missing}}">
+            <br><br>
+            <label>Last Name</label>
+            <input type="text" value="{{data.last_name}}">
+            <br><br>
+            <label>First Name</label>
+            <input type="text" value="{{data.first_name}}">  
+            <br><br>
+            <label>Age Missing</label>
+            <input type="text" value="{{data.age_missing}}">  
+            <br><br>
+            <label>City</label>
+            <input type="text" value="{{data.city}}">
+            <br>  <br>        
+            <label>State</label>
+            <input type="text" value="{{data.state}}">
+            <br>  <br> 
+            <label>Gender</label>
+            <input type="text" value="{{data.gender}}">
+            <br> <br>   
+            <label>Race</label>
+            <input type="text" value="{{data.race}}">
+            <br><br>
+        </form>    
+{% endblock %}
